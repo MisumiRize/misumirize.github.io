@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://MisumiRize.github.io/sitemap.xml 
+Sitemap: http://misumirize.github.io/sitemap.xml 
