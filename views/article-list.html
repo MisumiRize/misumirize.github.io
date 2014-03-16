@@ -1,0 +1,1 @@
+<ul class="article_list"><li ng-repeat="article in articles" class="article_list__item"><div class="article_list__item__title"><a ng-href="#/blog/{{article.source}}">{{article.title}}</a></div><time datetime="{{moment(article.createdAt).format()}}" class="article_list__item__created_at">{{moment(article.createdAt).format('MMM Do YYYY')}}</time></li></ul>

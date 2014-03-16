@@ -1,4 +1,3 @@
-User-agent: *
-Disallow: 
+# robotstxt.org
 
-Sitemap: http://misumirize.github.io/sitemap.xml 
+User-agent: *
