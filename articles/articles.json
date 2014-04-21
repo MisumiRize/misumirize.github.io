@@ -1,5 +1,10 @@
 [
   {
+    "createdAt": "2014-04-21T23:24+09:00",
+    "title": "大江戸 Ruby 会議 04 に行けなかったので Ruby/OpenCV でクソコラハッカソンした",
+    "source": "2014/04/21/ruby-opencv-hackathon"
+  },
+  {
     "createdAt": "2014-04-05T17:24+09:00",
     "title": "Vagrant 1.5 で Windows の対応状況がよくなってた",
     "source": "2014/04/05/vagrant-1-5-windows"
