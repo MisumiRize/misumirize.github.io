@@ -41,9 +41,7 @@ func main() {
 		fmt.Fprintf(os.Stderr, "usage: %s [word]\n", os.Args[0])
 		os.Exit(1)
 	}
-	doc, _ := goquery.NewDocument(BASE_URL + os.Args[1]); _ != nil {
-		os.Exit(1)
-	}
+	doc, _ := goquery.NewDocument(BASE_URL + os.Args[1])
 	doc.Find(".kenjeEnE, .Hypej, .jmdctGls").Each(func(_ int, s *goquery.Selection) {
 		fmt.Println(s.Text())
 	})
