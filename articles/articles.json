@@ -1,5 +1,10 @@
 [
   {
+    "createdAt": "2014-08-01T21:30+09:00",
+    "title": "TSD (TypeScript / DefinitelyTyped) をモジュールとして使う",
+    "source": "2014/08/01/use-tsd-as-module"
+  },
+  {
     "createdAt": "2014-07-30T23:38+09:00",
     "title": "TypeScript と Mocha で CommonJS をテストする",
     "source": "2014/07/30/bdd-commonjs-with-typescript-and-mocha"
