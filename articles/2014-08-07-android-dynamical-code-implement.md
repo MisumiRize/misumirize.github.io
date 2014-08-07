@@ -1,0 +1,14 @@
+# 世界一 IQ の低いコードそのもの動的に定義する
+
+元ネタは一週間ぐらい前に話題になった[これ](https://twitter.com/vjroba/status/494882208788660226)。
+
+リフレクションを使うとか、ルックアップテーブルを定義するとかは散々出尽くしてるので、あえて「世界一 IQ の低いコードをリフレクションから動的に定義して実行する」という回り回ったものを実装した。
+
+## 答え
+
+[DexMaker](https://code.google.com/p/dexmaker/) 使う。
+
+## 作った
+
+[LowestIQ](https://github.com/MisumiRize/LowestIQ) 
+
