@@ -12,3 +12,17 @@
 
 [LowestIQ](https://github.com/MisumiRize/LowestIQ) 
 
+DexMaker のための疑似コードを起こすにあたって、若干元のコードに修正が加えられているが許してほしい。
+
+```
+  String keyName;
+
+  keyName = "KEYCODE_XXX";
+  if (keyCode != KeyEvent.KEYCODE_XXX) goto label;
+  return keyName;
+
+label:
+  // 延々と比較が続く
+```
+
+こんな感じにひっくり返して書いてある。
