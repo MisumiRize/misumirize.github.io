@@ -52,26 +52,6 @@ tsc --module commonjs test/person.ts
 
 依存関係を解決した上で、ディレクトリ構成を保ったままコンパイルされるので、そのまま Mocha で実行できる。
 
-## TypeScript コンパイラ遅い
-
-TypeScript のコンパイラはすこぶる遅い。 Gulp はタスクを並列実行するので、 [gulp-tsc](https://github.com/kotas/gulp-tsc) でコンパイルしてもあまりの遅さで他のタスクに追い抜かれることがある。そのときは Q を使って同期的にタスクを実行するなりすればいい。
-
-```
-var Q = require('q');
-
-gulp.task('slow', function() {
-    var defer = Q.defer();
-    gulp.src('src/file')
-        .pipe(slowTask())
-        .on('end', function() {
-            defer.resolve();
-        });
-    return defer.promise;
-});
-```
-
-TypeScript コンパイラもこれから速度が改善するらしいのでそれに期待したい。
-
 ## Gulp と Browserify のパス解決が微妙に違う
 
 * Gulp は src 指定の際 ./ がなくても cwd としてパス解決できる
